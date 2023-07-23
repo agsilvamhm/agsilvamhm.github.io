@@ -1,15 +1,8 @@
 # Projeto full stack - Controle de ordens de serviço
-## Curso: Formação Html Web Developer, Plataforma: Digital Innovation One
-![imagem](/src/assets/img/work.png)
-
-## Módulo I  - História da Web
-## Módulo II - Introdução ao Html na prática
-## Módulo III- Preparando para o projeto inicial
-## Módulo IV - Trabalhando com formulários
-## Módulo V  - Estruturando seu Html + Formatações
-
-
-[!Projeto full stack com Spring boot e Angular]!(src/assets/img/work.png)
-
+## Para a contrução da aplicação foi utilizado as tecnologias.
+### Postgresql 
+### Spring boot
+### Angular 16
+![imagem](/src/assets/img/Imagem-aplicacao.PNG)
 (https://youtu.be/cn0HFiHudME)
 
