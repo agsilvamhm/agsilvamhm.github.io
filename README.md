@@ -1,11 +1,4 @@
-# OsFronte
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
-
-## Development server
-
-
-# Formação Html Web Developer
+# Projeto full stack - Controle de ordens de serviço
 ## Curso: Formação Html Web Developer, Plataforma: Digital Innovation One
 ![imagem](/src/assets/img/work.png)
 
