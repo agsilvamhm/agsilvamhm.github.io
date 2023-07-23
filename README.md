@@ -8,5 +8,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Code scaffolding
 
-[!Projeto full stack com Spring boot e Angular](https://youtu.be/cn0HFiHudME)
+[!Projeto full stack com Spring boot e Angular](src/assets/img/work.png)(https://youtu.be/cn0HFiHudME)
 
