@@ -4,9 +4,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Formação Html Web Developer
+## Curso: Formação Html Web Developer, Plataforma: Digital Innovation One
+![imagem](/src/assets/img/work.png)
+
+## Módulo I  - História da Web
+## Módulo II - Introdução ao Html na prática
+## Módulo III- Preparando para o projeto inicial
+## Módulo IV - Trabalhando com formulários
+## Módulo V  - Estruturando seu Html + Formatações
+
 
 [!Projeto full stack com Spring boot e Angular]!(src/assets/img/work.png)
 
