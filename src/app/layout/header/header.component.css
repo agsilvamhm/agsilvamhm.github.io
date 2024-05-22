@@ -1,3 +1,8 @@
 .spacer {
   flex: 1 1 auto;
 }
+
+.toolbar-logo {
+  height: 60px;
+  margin-right: 10px;
+}
