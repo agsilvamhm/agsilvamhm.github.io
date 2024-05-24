@@ -6,3 +6,7 @@
   height: 60px;
   margin-right: 10px;
 }
+
+@Media (max-width: 768px){
+  
+}

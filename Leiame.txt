@@ -2,7 +2,4 @@
 
 ng build --output-path docs --base-href /<nome-do-repositorio>
 
-# Renomear 'index.html'
-Apos a construção do projeto, renomear o arquivo 'index.html' dentro de 'docs' para 404.thml
-
 Na sequência comitar e enviar para o Github
