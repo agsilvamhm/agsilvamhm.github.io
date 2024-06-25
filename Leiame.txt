@@ -1,5 +1,5 @@
 # Para publicar o projeto Angular no github pages
 
-ng build --output-path docs --base-href /<nome-do-repositorio>
+ng build --output-path docs --base-href /agsilvamhm.github.io
 
 Na sequência comitar e enviar para o Github
