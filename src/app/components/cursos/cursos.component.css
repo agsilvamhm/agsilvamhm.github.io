@@ -1,5 +1,24 @@
-.example-card {
-  max-width: 400px;
+.card-container {
+  display: flex;
+  flex-direction: column; /* Layout em coluna por padrão */
+  gap: 20px;
+  padding: 20px;
+}
 
-  margin-bottom: 8px;
+.example-card {
+  max-width: 100%; /* Cada card ocupa 100% em layouts menores */
+}
+
+/* Layout em linha para telas maiores */
+@media (min-width: 768px) {
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .example-card {
+    flex: 1 1 300px; /* Cada card ocupa no mínimo 300px em telas maiores */
+    max-width: 45%;  /* Limita a largura para até 45% do container */
+  }
 }

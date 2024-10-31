@@ -1,0 +1,14 @@
+.construction-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.construction-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1px;
+}
+mat-card {
+  text-align: center;
+  padding: 5px;
+}
