@@ -12,3 +12,18 @@ mat-card {
   text-align: center;
   padding: 5px;
 }
+
+a {
+  color: #1e88e5; /* Azul escuro */
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+  background-color: #e3f2fd; /* Azul claro */
+  transform: scale(1.1);
+}
