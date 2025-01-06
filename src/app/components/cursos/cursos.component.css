@@ -6,7 +6,7 @@
 }
 
 .example-card {
-  max-width: 100%; /* Cada card ocupa 100% em layouts menores */
+  max-width: 50%; /* Cada card ocupa 100% em layouts menores */
 }
 
 /* Layout em linha para telas maiores */
@@ -18,7 +18,7 @@
   }
 
   .example-card {
-    flex: 1 1 300px; /* Cada card ocupa no mínimo 300px em telas maiores */
-    max-width: 45%;  /* Limita a largura para até 45% do container */
+    flex: 1 1 30px; /* Cada card ocupa no mínimo 300px em telas maiores */
+    max-width: 30%;  /* Limita a largura para até 45% do container */
   }
 }
