@@ -38,7 +38,20 @@ export class CursosComponent {
       content: 'Coursera é uma plataforma de cursos online gratuitos',
       link: 'https://www.coursera.org',
       imageUrl: 'assets/imagens/Coursera.png'
+    },
+    {
+      title: 'fit tech academy',
+      content: 'Cursos livres abertos a sociedade',
+      link: 'https://fit-tecnologia.org.br/fta/tech-academy',
+      imageUrl: 'assets/imagens/fit-tech.png'
+    },
+    {
+      title: 'Startse',
+      content: 'Conteúdo diário sobre inovação, empreendedorismo e os temas mais relevantes do Agora para que você não perca nada.',
+      link: 'https://www.startse.com',
+      imageUrl: 'assets/imagens/startse.png'
     }
+
   ];
 
 }
