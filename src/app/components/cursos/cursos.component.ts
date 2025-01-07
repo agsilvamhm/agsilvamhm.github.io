@@ -50,7 +50,20 @@ export class CursosComponent {
       content: 'Conteúdo diário sobre inovação, empreendedorismo e os temas mais relevantes do Agora para que você não perca nada.',
       link: 'https://www.startse.com',
       imageUrl: 'assets/imagens/startse.png'
+    },
+    {
+      title: 'Instituto Federal Rio Grande do Sul',
+      content: 'Moodle - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul.',
+      link: 'https://moodle.ifrs.edu.br/login/index.php',
+      imageUrl: 'assets/imagens/Instituto-federal.png'
+    },
+    {
+      title: 'Ministério do Trabalho e Emprego',
+      content: 'Uma iniciativa do Ministério da Economia realizado em parceria com a Microsoft para promoção de qualificação e inserção profissional.',
+      link: 'https://escoladotrabalhador40.org.br',
+      imageUrl: 'assets/imagens/govbr-logo.png'
     }
+
 
   ];
 
