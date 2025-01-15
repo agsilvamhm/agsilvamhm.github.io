@@ -20,7 +20,7 @@ export class CursosComponent {
       content: 'Plataforma de cursos de informática',
       link: 'https://www.dio.me',
       imageUrl: 'assets/imagens/dio.png'
-    },
+    },        
     {
       title: 'FIAP',
       content: 'FIAP oferece cursos gratuitos na área de TI e Negócios',
@@ -62,9 +62,15 @@ export class CursosComponent {
       content: 'Uma iniciativa do Ministério da Economia realizado em parceria com a Microsoft para promoção de qualificação e inserção profissional.',
       link: 'https://escoladotrabalhador40.org.br',
       imageUrl: 'assets/imagens/govbr-logo.png'
+    },
+    {
+      title: 'Instituto Federal de Minas Gerais',
+      content: 'FAÇA UM CURSO ONLINE, Melhore suas habilidades com os cursos do +ifmg',
+      link: 'https://mais.ifmg.edu.br/maisifmg/',
+      imageUrl: 'assets/imagens/ifminasgerais.jpg'
     }
 
 
   ];
-
+  
 }

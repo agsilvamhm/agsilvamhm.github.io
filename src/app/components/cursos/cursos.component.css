@@ -1,12 +1,33 @@
 .card-container {
   display: flex;
   flex-direction: column; /* Layout em coluna por padrão */
-  gap: 20px;
-  padding: 20px;
+  gap: 30px;
+  padding: 40px; /* Maior espaçamento interno */
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9; /* Fundo sutil */
+}
+
+img {
+  width: 300px; /* Ajusta ao tamanho do card */
+  height: 200px; /* Mantém a proporção da imagem */
+  border-bottom: 1px solid #ddd; /* Separador visual */
 }
 
 .example-card {
-  max-width: 50%; /* Cada card ocupa 100% em layouts menores */
+  flex: 1 1 calc(25% - 20px); /* Ajuste flexível */
+  max-width: 25%;
+  margin: 10px; /* Espaçamento ao redor */
+  border: 1px solid #ddd; /* Bordas finas */
+  border-radius: 8px; /* Cantos arredondados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  overflow: hidden; /* Evita extrapolação de conteúdo */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza animações */
+}
+
+.example-card:hover {
+  transform: translateY(-5px); /* Eleva levemente o card */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
 }
 
 /* Layout em linha para telas maiores */
@@ -18,7 +39,14 @@
   }
 
   .example-card {
-    flex: 1 1 20px;
-    max-width: 20%;
+    flex: 1 1 calc(25% - 20px); /* Quatro cards por linha */
   }
 }
+
+/* Responsividade intermediária */
+@media (min-width: 480px) and (max-width: 767px) {
+  .example-card {
+    flex: 1 1 calc(50% - 20px); /* Dois cards por linha */
+  }
+}
+
