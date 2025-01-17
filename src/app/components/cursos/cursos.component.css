@@ -1,22 +1,22 @@
 .card-container {
   display: flex;
   flex-direction: column; /* Layout em coluna por padrão */
-  gap: 30px;
-  padding: 40px; /* Maior espaçamento interno */
+  gap: 20px; /* Ajuste do espaçamento */
+  padding: 20px; /* Reduz o espaçamento em telas menores */
   justify-content: center;
   align-items: center;
   background-color: #f9f9f9; /* Fundo sutil */
 }
 
 img {
-  width: 300px; /* Ajusta ao tamanho do card */
-  height: 200px; /* Mantém a proporção da imagem */
+  width: 100%; /* Torna a imagem responsiva ao card */
+  height: auto; /* Mantém a proporção da imagem */
   border-bottom: 1px solid #ddd; /* Separador visual */
 }
 
 .example-card {
-  flex: 1 1 calc(25% - 20px); /* Ajuste flexível */
-  max-width: 25%;
+  flex: 1 1 100%; /* Full width por padrão */
+  max-width: 100%; /* Previne extrapolação */
   margin: 10px; /* Espaçamento ao redor */
   border: 1px solid #ddd; /* Bordas finas */
   border-radius: 8px; /* Cantos arredondados */
@@ -47,6 +47,18 @@ img {
 @media (min-width: 480px) and (max-width: 767px) {
   .example-card {
     flex: 1 1 calc(50% - 20px); /* Dois cards por linha */
+  }
+}
+
+/* Responsividade para telas menores que 480px */
+@media (max-width: 479px) {
+  .example-card {
+    flex: 1 1 100%; /* Um card por linha */
+  }
+
+  .card-container {
+    padding: 10px; /* Menor espaçamento interno */
+    gap: 10px; /* Reduz o gap */
   }
 }
 

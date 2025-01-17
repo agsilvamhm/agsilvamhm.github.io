@@ -1,4 +1,5 @@
 .header {
+   /* position: fixed;*/
   height: 8%;
   display: flex;
   align-items: center;
@@ -7,7 +8,7 @@
 
   /*position: top; */
   top: 0;
-  /*width: 98%; */
+  width: 100%; 
   padding: 15px 20px;
   background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
