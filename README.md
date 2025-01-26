@@ -20,23 +20,23 @@
 
 Este projeto tem como objetivo central criar uma plataforma online destinada a estudantes, programadores iniciantes e profissionais que desejam aprimorar suas habilidades em programação e desenvolvimento de software. A plataforma visa oferecer uma experiência prática e informativa, reunindo recursos úteis em um único ambiente. Os principais elementos que compõem o site incluem:
 
-#Links para Plataformas de Cursos Gratuitos
+# Links para Plataformas de Cursos Gratuitos
 
-Uma curadoria de links para plataformas renomadas que oferecem cursos gratuitos em diversas áreas de tecnologia, como desenvolvimento web, ciência de dados, inteligência artificial, entre outras.
+- Uma curadoria de links para plataformas renomadas que oferecem cursos gratuitos em diversas áreas de tecnologia, como desenvolvimento web, ciência de dados, inteligência artificial, entre outras.
 
-A intenção é democratizar o acesso ao conhecimento, facilitando o aprendizado de forma autônoma e acessível.
+- A intenção é democratizar o acesso ao conhecimento, facilitando o aprendizado de forma autônoma e acessível.
 
-#Ferramentas para Construção de Aplicativos
+# Ferramentas para Construção de Aplicativos
 
-Uma seção dedicada a destacar ferramentas e bibliotecas essenciais para o desenvolvimento de aplicativos e sistemas. Entre elas, estão IDEs, frameworks, gerenciadores de dependências e outras soluções que simplificam e potencializam o trabalho de desenvolvedores.
+- Uma seção dedicada a destacar ferramentas e bibliotecas essenciais para o desenvolvimento de aplicativos e sistemas. Entre elas, estão IDEs, frameworks, gerenciadores de dependências e outras soluções que simplificam e potencializam o trabalho de desenvolvedores.
 
-Cada ferramenta será apresentada com uma breve descrição de suas funcionalidades, vantagens e links para sua documentação oficial.
+- Cada ferramenta será apresentada com uma breve descrição de suas funcionalidades, vantagens e links para sua documentação oficial.
 
-- [ ]Projetos Referentes ao Estudo de Programação
+# Projetos Referentes ao Estudo de Programação
 
-- **Compartilhamento de projetos práticos desenvolvidos no contexto de estudos e experimentação em programação. Esses projetos têm o objetivo de inspirar outros desenvolvedores e servir como exemplos para aqueles que estão aprendendo.
+- Compartilhamento de projetos práticos desenvolvidos no contexto de estudos e experimentação em programação. Esses projetos têm o objetivo de inspirar outros desenvolvedores e servir como exemplos para aqueles que estão aprendendo.
 
-- **Cada projeto incluirá uma descrição detalhada, código-fonte, tecnologias utilizadas e possíveis aplicações práticas.
+- Cada projeto incluirá uma descrição detalhada, código-fonte, tecnologias utilizadas e possíveis aplicações práticas.
 
 Por meio dessa iniciativa, o projeto busca fomentar o aprendizado colaborativo, incentivar o uso de ferramentas adequadas e proporcionar exemplos concretos de aplicação de conceitos de programação, promovendo o crescimento técnico e profissional dos usuários da plataforma.
 
