@@ -1,15 +1,38 @@
-<mat-toolbar class="header mat-elevation-z8">
-  <div class="header-logo">
-   <img src="assets/imagens/logo_mhm.jpg" alt="logo mhm-dev-academy" title="MHM - DEV ACADEMY" >
-  </div>
-  <nav class="header-nav">
-    <a href="https://www.youtube.com/channel/UC-monLE8WbcI6eWNFdM02mA" target="_blank">
-      <img src="https://img.icons8.com/ios-filled/24/youtube-play.png" alt="YouTube" title="Youtube" style="vertical-align: middle; margin-right: 5px;">
-    </a>
-  </nav>
- <!-- <div class="header-right">
-    <input type="text" placeholder="Pesquisar" class="header-search" />
-    <a href="/login" class="header-login">Entrar</a>
-    <button class="header-cta">Assine Agora</button>
-  </div> -->
-</mat-toolbar>
+<mat-sidenav-container class="sidenav-container">
+  <!-- Menu Lateral -->
+  <mat-sidenav #sidenav mode="over" class="sidenav" [opened]="false">
+    <mat-nav-list class="menu-title">MENU
+      <a mat-list-item routerLink="/"><i class="material-icons">home</i>Home</a>      
+      <a mat-list-item routerLink="cursos"><i class="material-icons">rocket_launch</i>Plataformas de cursos</a>
+      <a mat-list-item routerLink="ferramentas"><i class="material-icons">build        </i>Ferramentas on-line _</a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <!-- Conteúdo Principal -->
+  <mat-sidenav-content >
+    <mat-toolbar class="header mat-elevation-z8">
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+
+      <div class="header-logo">MHM - DEV ACADEMY</div>
+
+      <div class="header-youtube">
+        <a href="https://www.youtube.com/channel/UC-monLE8WbcI6eWNFdM02mA" target="_blank">
+          <img
+            src="https://img.icons8.com/ios-filled/24/youtube-play.png"
+            alt="YouTube"
+            title="Youtube"
+            style="vertical-align: middle; margin-right: 5px;"
+          />
+        </a>
+      </div>
+
+    </mat-toolbar>
+
+    <div class="content">
+      <router-outlet></router-outlet> 
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
