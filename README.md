@@ -18,9 +18,27 @@
 
 ## Visão Geral do Projeto
 
-Aqui você descreve o propósito geral do seu aplicativo, o que ele se propõe a fazer, quem são seus usuários e qual é o impacto esperado.
+Este projeto tem como objetivo central criar uma plataforma online destinada a estudantes, programadores iniciantes e profissionais que desejam aprimorar suas habilidades em programação e desenvolvimento de software. A plataforma visa oferecer uma experiência prática e informativa, reunindo recursos úteis em um único ambiente. Os principais elementos que compõem o site incluem:
 
-> Exemplo: O aplicativo visa ajudar usuários a gerenciar suas finanças pessoais, oferecendo funcionalidades para rastrear despesas, criar orçamentos e gerar relatórios.
+#Links para Plataformas de Cursos Gratuitos
+
+Uma curadoria de links para plataformas renomadas que oferecem cursos gratuitos em diversas áreas de tecnologia, como desenvolvimento web, ciência de dados, inteligência artificial, entre outras.
+
+A intenção é democratizar o acesso ao conhecimento, facilitando o aprendizado de forma autônoma e acessível.
+
+#Ferramentas para Construção de Aplicativos
+
+Uma seção dedicada a destacar ferramentas e bibliotecas essenciais para o desenvolvimento de aplicativos e sistemas. Entre elas, estão IDEs, frameworks, gerenciadores de dependências e outras soluções que simplificam e potencializam o trabalho de desenvolvedores.
+
+Cada ferramenta será apresentada com uma breve descrição de suas funcionalidades, vantagens e links para sua documentação oficial.
+
+- [ ]Projetos Referentes ao Estudo de Programação
+
+- **Compartilhamento de projetos práticos desenvolvidos no contexto de estudos e experimentação em programação. Esses projetos têm o objetivo de inspirar outros desenvolvedores e servir como exemplos para aqueles que estão aprendendo.
+
+- **Cada projeto incluirá uma descrição detalhada, código-fonte, tecnologias utilizadas e possíveis aplicações práticas.
+
+Por meio dessa iniciativa, o projeto busca fomentar o aprendizado colaborativo, incentivar o uso de ferramentas adequadas e proporcionar exemplos concretos de aplicação de conceitos de programação, promovendo o crescimento técnico e profissional dos usuários da plataforma.
 
 ---
 
