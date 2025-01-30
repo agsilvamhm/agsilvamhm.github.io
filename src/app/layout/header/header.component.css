@@ -1,94 +1,92 @@
 body {
-  font-family: 'Roboto', sans-serif; /* Fonte padrão moderna e limpa */
+  font-family: 'Roboto', sans-serif; 
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background-color: #f4f4f9; /* Fundo neutro para bom contraste */
-  color: #333; /* Cor do texto para boa legibilidade */
+ /* box-sizing: border-box; */
 }
-
-/* Header */
+ 
 .header {
-  background-color: #2b6cb0; /* Azul moderno */
-  color: #fff; /* Texto branco para contraste */
+  background-color: #2b6cb0; 
+  color: #fff; 
   display: flex;
   align-items: center;
-  padding: 0 16px; /* Adiciona espaçamento interno */
-  height: 64px; /* Altura padrão para barra de navegação */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+  justify-content: flex-start; /* Alinha os itens à esquerda */
+  padding: 0 16px; 
+  height: 100px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+  position: fixed; /* Fixa o header no topo */
+  top: 0; /* Alinha ao topo da página */
+  left: 0;
+  width: 100%; /* Ocupa toda a largura da tela */
+  z-index: 1000; /* Mantém o header acima dos outros elementos */
+}
+
+.header button {
+  background-color: transparent; 
+  border: none; 
+  cursor: pointer; 
+  transition: transform 0.2s ease; 
 }
 
 .header-logo {
-  flex-grow: 1;
-  font-size: 1.5rem; /* Tamanho maior para o logotipo */
+  font-size: 1.5rem; 
   font-weight: bold;
+  margin-right: auto; /* Empurra os outros itens para a direita */
 }
 
 .header-youtube img {
-  width: 24px; /* Tamanho do ícone do YouTube */
+  width: 24px; 
   height: 24px;
   cursor: pointer;
-  transition: transform 0.2s ease; /* Animação suave */
+  transition: transform 0.2s ease; 
 }
 
 .header-youtube img:hover {
-  transform: scale(1.1); /* Aumenta levemente ao passar o mouse */
+  transform: scale(1.1); 
 }
 
-/* Menu Lateral */
+
 .sidenav-container {
   height: 100vh;
-  background-color: #f9fafb; /* Fundo claro */
-
+  background-color: #f9fafb; 
+  padding-top: 100px; /* Ajusta o espaço para o header fixo */
 }
 
-.sidenav {
-  width: 20%; /* Largura padrão do menu lateral */
-  background-color: #edf2f7; /* Fundo claro para contraste com o conteúdo */
-  padding: 16px; /* Espaçamento interno */
-  border-right: 1px solid #e2e8f0; /* Linha divisória suave */
-}
-
-.menu-title {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.25rem; /* Tamanho maior para o título */
-  color: #2b6cb0; /* Azul para destacar */
-  margin-bottom: 16px;
-}
-
-mat-list-item {
-  display: flex; /* Garante que flexbox está ativado */
-  align-items: center; /* Centraliza ícone e texto verticalmente */
-  justify-content: flex-start; /* Alinha ícone e texto à esquerda */
-  padding: 8px 0; /* Espaçamento vertical */
-  text-align: left; /* Alinha o conteúdo textual à esquerda */ 
-  margin-left: 0; /* Remove qualquer margem à esquerda */
-}
-
-mat-list-item:hover {
-  background-color: #e2e8f0; /* Fundo mais claro ao passar o mouse */
-  border-radius: 10px; /* Borda arredondada para suavizar */
-}
-
-/* Conteúdo Principal */
 mat-sidenav-content {
-  background-color: #fff; /* Fundo branco para o conteúdo */
-  padding: 16px; /* Espaçamento interno */
+  background-color: #fff; 
+  padding: 16px; 
 }
 
 .content {
-  margin-top: 16px; /* Espaçamento abaixo do cabeçalho */
-  font-size: 1rem; /* Tamanho do texto */
-  line-height: 1.6; /* Altura da linha para melhor leitura */
+  margin-top: 16px; 
+  font-size: 1rem; 
+  line-height: 1.6; 
+  margin-top: 100px; /* Empurra o conteúdo para baixo */
 }
 
-/* Botão de abrir menu */
 mat-toolbar button {
-  color: #fff; /* Ícone do menu em branco */
+  color: #fff; 
 }
 
 mat-toolbar button:hover {
-  background-color: rgba(255, 255, 255, 0.1); /* Fundo claro ao passar o mouse */
-  border-radius: 50%; /* Deixa o botão arredondado */
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 50%; 
+} 
+
+.menu-title {
+  font-weight: bold;
+  padding: 16px;
+  text-align: center;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column; /* Alinha os ícones horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: flex-end; /* Alinha à esquerda */
+  padding: 16px;
+}
+
+.icon-container a {
+  margin-right: 10px; /* Espaçamento entre os ícones */
 }

@@ -2,9 +2,17 @@
   <!-- Menu Lateral -->
   <mat-sidenav #sidenav mode="over" class="sidenav" [opened]="false">
     <mat-nav-list class="menu-title">MENU
-      <a mat-list-item routerLink="/"><i class="material-icons">home</i>Home</a>      
-      <a mat-list-item routerLink="cursos"><i class="material-icons">rocket_launch</i>Plataformas de cursos</a>
-      <a mat-list-item routerLink="ferramentas"><i class="material-icons">build        </i>Ferramentas on-line _</a>
+      <div class="icon-container">
+        <a mat-list-item routerLink="/" title="Página Inicial">
+          <i class="material-icons">home</i>
+        </a>
+        <a mat-list-item routerLink="cursos" title="Plataformas de cursos"> 
+          <i class="material-icons">rocket_launch</i>
+        </a>
+        <a mat-list-item routerLink="ferramentas" title="Ferramentas">
+          <i class="material-icons">build</i>
+        </a>
+      </div>
     </mat-nav-list>
   </mat-sidenav>
 

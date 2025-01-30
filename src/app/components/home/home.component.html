@@ -1,74 +1,72 @@
 <div class="programming-page">
-  <mat-card>
+  <mat-card class="main-card">
+    <!-- Cabeçalho -->
     <mat-card-header>
-      <mat-card-title>Descubra o Mundo da Programação</mat-card-title>
+      <mat-card-title class="main-title">🚀 Bem-vindo a <span class="highlight">MHM-DEV ACADEMY</span></mat-card-title>
+      <mat-card-subtitle class="subtitle">
+        Seu ponto de partida para dominar a programação e transformar sua carreira!
+      </mat-card-subtitle>
     </mat-card-header>
-    <mat-card-content>
-      <p>
-        Explore recursos, artigos e notícias sobre programação em diversos idiomas.
-        Selecione um link abaixo para começar sua jornada.
-      </p>
 
-      <!-- Seção: Links úteis -->
+    <!-- Conteúdo principal -->
+    <mat-card-content>
+      <!-- Texto motivacional -->
+      <div class="intro-text">
+        <p>
+          Se você está começando na programação ou migrando para a área de tecnologia, está no lugar certo! Aqui, reunimos os diversos sites que disponibilizam cursos gratuitos para várias linguagens de programação, como também os sites para as diversas ferramentas utilizadas no desenvolvimento de software.
+        </p>
+        <h2><a routerLink="cursos" >Acesse o menu para visualizar as opções, ou clique aqui para ir direto para as plataformas.</a></h2>
+        <p>
+          💡 <strong>Dica:</strong> A programação é como um superpoder. Com ela, você pode criar soluções incríveis e transformar ideias em realidade. Vamos começar?
+        </p>
+      </div>
+
+      <!-- QR Code para doações -->
+      <div class="donation-section">
+        <h3>Ajude a manter este projeto!</h3>
+        <p>
+          Se este site te ajudou, considere fazer uma doação para que possamos continuar oferecendo conteúdo gratuito e de qualidade.
+        </p>
+        <img src="assets/imagens/qrcode2.jpeg" alt="QR Code para doações" width="300">
+      </div>
+
+      <!-- Seção de links úteis -->
       <div class="resources-section">
-        <h3>Sites Úteis</h3>
+        <h2>Recursos por Idioma</h2>
         <div class="resource-links">
-          <!-- Em Português -->
+          <!-- Português -->
           <div class="resource-card">
             <img src="https://portalcanario.wordpress.com/wp-content/uploads/2021/08/brasil.jpg?w=900&h=595" alt="Programação Brasil">
             <h4>Português</h4>
             <ul>
-              <li>
-                <a href="https://www.devmedia.com.br/" target="_blank">DevMedia</a>
-              </li>
-              <li>
-                <a href="https://www.horadecodar.com.br/" target="_blank">Hora de Codar</a>
-              </li>
-              <li>
-                <a href="https://www.alura.com.br/artigos" target="_blank">Artigos da Alura</a>
-              </li>
+              <li><a href="https://www.devmedia.com.br/" target="_blank">DevMedia</a></li>
+              <li><a href="https://www.horadecodar.com.br/" target="_blank">Hora de Codar</a></li>
+              <li><a href="https://www.alura.com.br/artigos" target="_blank">Artigos da Alura</a></li>
             </ul>
           </div>
 
-          <!-- Em Espanhol -->
+          <!-- Espanhol -->
           <div class="resource-card">
             <img src="https://cdn-blog.kabum.com.br/wp-content/uploads/2022/04/shutterstock_1488125123.jpg" alt="Programación Español">
             <h4>Espanhol</h4>
             <ul>
-              <li>
-                <a href="https://platzi.com/blog/" target="_blank">Blog Platzi</a>
-              </li>
-              <li>
-                <a href="https://www.freecodecamp.org/espanol/" target="_blank">FreeCodeCamp Español</a>
-              </li>
-              <li>
-                <a href="https://codigofacilito.com/" target="_blank">Código Facilito</a>
-              </li>
+              <li><a href="https://platzi.com/blog/" target="_blank">Blog Platzi</a></li>
+              <li><a href="https://www.freecodecamp.org/espanol/" target="_blank">FreeCodeCamp Español</a></li>
+              <li><a href="https://codigofacilito.com/" target="_blank">Código Facilito</a></li>
             </ul>
           </div>
 
-          <!-- Em Inglês -->
+          <!-- Inglês -->
           <div class="resource-card">
             <img src="https://media.licdn.com/dms/image/v2/C4E12AQHpAukjpSIbwg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1574298275945?e=1743638400&v=beta&t=65SQDL_jx5vy37-6BTakEpAkhN0aEBqQ7SKEZErxiSY" alt="Programming English">
             <h4>Inglês</h4>
             <ul>
-              <li>
-                <a href="https://www.freecodecamp.org/news/" target="_blank">FreeCodeCamp News</a>
-              </li>
-              <li>
-                <a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a>
-              </li>
-              <li>
-                <a href="https://hackernoon.com/" target="_blank">Hacker Noon</a>
-              </li>
+              <li><a href="https://www.freecodecamp.org/news/" target="_blank">FreeCodeCamp News</a></li>
+              <li><a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a></li>
+              <li><a href="https://hackernoon.com/" target="_blank">Hacker Noon</a></li>
             </ul>
           </div>
         </div>
-      </div>
-
-      <!-- Imagem ilustrativa principal -->
-      <div class="main-image">
-        <img src="https://federalcubatao.com.br/wp-content/uploads/2024/08/simbolo-programacao.webp" alt="Explore o mundo da programação">
       </div>
     </mat-card-content>
   </mat-card>

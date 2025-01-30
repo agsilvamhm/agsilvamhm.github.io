@@ -9,7 +9,7 @@
 }
 
 img {
-  width: 100%; /* Largura total do card */
+  width: 300px; /* Largura total do card */
   height: 200px; /* Altura fixa para o espaço da imagem */
   object-fit: contain; /* Ajusta a imagem proporcionalmente sem cortar */
   border-bottom: 1px solid #ddd; /* Separador visual */

@@ -71,11 +71,10 @@ export class CursosComponent {
     },
     {
       title: 'Jornada do DEV',
-      content: 'FAÇA UM CURSO ONLINE, Melhore suas habilidades com os cursos do +ifmg',
+      content: 'Melhore suas habilidades com os cursos.',
       link: 'https://jornadadodev.com.br/cursos/',
-      imageUrl: 'assets/imagens/jornada-do-dev-logo.png'
+      imageUrl: 'assets/imagens/jornada-do-dev.jpeg'
     }
-
 
   ];
   
