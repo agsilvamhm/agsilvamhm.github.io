@@ -4,16 +4,19 @@
     <mat-card-header>
       <mat-card-title>{{ card.title }}</mat-card-title>
     </mat-card-header>
+
+   <!-- <mat-card-actions>
+      <a mat-button color="primary" href="{{ card.link }}" target="_blank">Saiba mais</a>
+    </mat-card-actions>  -->
     
+    <mat-card-actions>
+      <a mat-button color="primary" [href]="card.link" target="_blank">Saiba mais</a>
+    </mat-card-actions>
+
     <img mat-card-image [src]="card.imageUrl" alt="{{ card.title }}" />
 
     <mat-card-content>
       <p>{{ card.content }}</p>
     </mat-card-content>
-
-    <mat-card-actions>
-      <a mat-button color="primary" href="{{ card.link }}" target="_blank">Saiba mais</a>
-    </mat-card-actions>  
-
   </mat-card>
 </div>
