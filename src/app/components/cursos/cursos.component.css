@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column; /* Layout em coluna por padrão */
   gap: 20px;
-  padding: 20px;
+  padding: 5px;
   justify-content: center;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: #4e4747;
 }
 
 img {

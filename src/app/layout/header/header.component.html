@@ -1,16 +1,19 @@
 <mat-sidenav-container class="sidenav-container">
   <!-- Menu Lateral -->
-  <mat-sidenav #sidenav mode="over" class="sidenav" [opened]="false">
+  <mat-sidenav #sidenav mode="side" class="sidenav" [opened]="true">
     <mat-nav-list class="menu-title">MENU
       <div class="icon-container">
         <a mat-list-item routerLink="/" title="Página Inicial">
           <i class="material-icons">home</i>
+          <span *ngIf="expanded">Página Inicial</span>
         </a>
         <a mat-list-item routerLink="cursos" title="Plataformas de cursos"> 
           <i class="material-icons">rocket_launch</i>
+          <span *ngIf="expanded">Plataformas de cursos</span>
         </a>
         <a mat-list-item routerLink="ferramentas" title="Ferramentas">
           <i class="material-icons">build</i>
+          <span *ngIf="expanded">Ferramentas</span>
         </a>
       </div>
     </mat-nav-list>
@@ -19,7 +22,7 @@
   <!-- Conteúdo Principal -->
   <mat-sidenav-content >
     <mat-toolbar class="header mat-elevation-z8">
-      <button mat-icon-button (click)="sidenav.toggle()">
+      <button mat-icon-button (click)="toggleMenu()">
         <mat-icon>menu</mat-icon>
       </button>
 
@@ -54,4 +57,3 @@
     </div>
   </mat-sidenav-content>
 </mat-sidenav-container>
-
