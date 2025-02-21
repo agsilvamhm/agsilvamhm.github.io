@@ -1,6 +1,7 @@
 <mat-sidenav-container class="sidenav-container">
   <!-- Menu Lateral -->
-  <mat-sidenav #sidenav mode="side" class="sidenav" [opened]="true">
+  <!--<mat-sidenav #sidenav mode="side" class="sidenav" [opened]="true"> -->
+    <mat-sidenav #sidenav mode="side" class="sidenav" [opened]="true" [class.collapsed]="!expanded">
     <mat-nav-list class="menu-title">MENU
       <div class="icon-container">
         <a mat-list-item routerLink="/" title="Página Inicial">
