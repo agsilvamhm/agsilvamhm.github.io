@@ -7,9 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   expanded = true;
+  menuIcon = 'menu'; // Ícone inicial
 
   toggleMenu() {
     this.expanded = !this.expanded;
+    this.menuIcon = this.expanded ? 'menu' : 'close'; // Alterna entre os ícones
   }
 
 }

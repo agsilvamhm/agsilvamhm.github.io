@@ -2,7 +2,7 @@
   <!-- Menu Lateral -->
   <!--<mat-sidenav #sidenav mode="side" class="sidenav" [opened]="true"> -->
     <mat-sidenav #sidenav mode="side" class="sidenav" [opened]="true" [class.collapsed]="!expanded">
-    <mat-nav-list class="menu-title">MENU
+    <mat-nav-list class="menu-title">
       <div class="icon-container">
         <a mat-list-item routerLink="/" title="Página Inicial">
           <i class="material-icons">home</i>
@@ -24,7 +24,7 @@
   <mat-sidenav-content >
     <mat-toolbar class="header mat-elevation-z8">
       <button mat-icon-button (click)="toggleMenu()">
-        <mat-icon>menu</mat-icon>
+        <mat-icon>{{ menuIcon }}</mat-icon>
       </button>
 
       <div class="header-logo">MHM - DEV ACADEMY</div>

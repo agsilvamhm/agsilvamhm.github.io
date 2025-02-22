@@ -51,14 +51,14 @@
  .sidenav-container {
   margin-top: 100px;
   height: calc(100vh - 100px);
-  background-color: #f9fafb; 
+  background-color: white;
   padding-top: 0px; 
  }
 
  content {
   padding: 16px; 
 }
-
+/*
  .icon-container a {
   display: flex;  
   align-items: center;
@@ -66,6 +66,33 @@
   color: #333; 
   padding: 10px;
   border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+
+}  */
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinha os ícones e textos à esquerda */
+  padding-left: 10px;
+}
+
+.icon-container a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.icon-container i {
+  margin-right: 10px; /* Espaçamento entre ícone e texto */
+}
+
+.icon-container span {
+  white-space: nowrap; /* Evita quebra de linha */
 }
    
