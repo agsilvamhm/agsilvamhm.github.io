@@ -1,26 +1,26 @@
-<mat-drawer-container class="container" autosize>
+ <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav mode="side" class="sidenav" [opened]="true" [class.collapsed]="!expanded">
+    <mat-nav-list class="menu-title">
+      <div class="icon-container">
+        <a mat-list-item routerLink="/" title="Página Inicial">
+          <i class="material-icons">home</i>
+          <span *ngIf="expanded">Página Inicial</span>
+        </a>
+        <a mat-list-item routerLink="cursos" title="Plataformas de cursos"> 
+          <i class="material-icons">rocket_launch</i>
+          <span *ngIf="expanded">Plataformas de cursos</span>
+        </a>
+        <a mat-list-item routerLink="ferramentas" title="Ferramentas">
+          <i class="material-icons">build</i>
+          <span *ngIf="expanded">Ferramentas</span>
+        </a>
+      </div>
+    </mat-nav-list>
+  </mat-sidenav>
   
-  <mat-drawer #drawer class="sidenav" mode="side" >
-    <mat-nav-list class="nav-list">
-      <h3>Menu</h3>
-    <!--  <a mat-list-item routerLink="/">
-        <i class="material-icons">home</i>Home
-      </a> -->
-      <a mat-list-item routerLink="/">
-        <i class="material-icons">rocket_launch</i>Plataformas de cursos
-      </a>
-      <a mat-list-item routerLink="/">
-        <i class="material-icons">rocket_launch</i>Ferramentas
-      </a>
-     </mat-nav-list>
-
-  </mat-drawer>
-
-  <div class="sidenav-content">
-      <button mat-icon-button (click)="drawer.toggle()">
-          <mat-icon>menu</mat-icon>
-      </button>
-       <!-- <router-outlet></router-outlet> -->
-  </div>
-
-</mat-drawer-container>
+  <mat-sidenav-content >  
+    <div class="content">
+      <router-outlet></router-outlet> 
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container> 

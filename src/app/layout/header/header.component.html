@@ -1,28 +1,4 @@
-<mat-sidenav-container class="sidenav-container">
-  <!-- Menu Lateral -->
-  <!--<mat-sidenav #sidenav mode="side" class="sidenav" [opened]="true"> -->
-    <mat-sidenav #sidenav mode="side" class="sidenav" [opened]="true" [class.collapsed]="!expanded">
-    <mat-nav-list class="menu-title">
-      <div class="icon-container">
-        <a mat-list-item routerLink="/" title="Página Inicial">
-          <i class="material-icons">home</i>
-          <span *ngIf="expanded">Página Inicial</span>
-        </a>
-        <a mat-list-item routerLink="cursos" title="Plataformas de cursos"> 
-          <i class="material-icons">rocket_launch</i>
-          <span *ngIf="expanded">Plataformas de cursos</span>
-        </a>
-        <a mat-list-item routerLink="ferramentas" title="Ferramentas">
-          <i class="material-icons">build</i>
-          <span *ngIf="expanded">Ferramentas</span>
-        </a>
-      </div>
-    </mat-nav-list>
-  </mat-sidenav>
-
-  <!-- Conteúdo Principal -->
-  <mat-sidenav-content >
-    <mat-toolbar class="header mat-elevation-z8">
+<mat-toolbar class="header mat-elevation-z8">
       <button mat-icon-button (click)="toggleMenu()">
         <mat-icon>{{ menuIcon }}</mat-icon>
       </button>
@@ -50,11 +26,5 @@
           />
         </a>
       </div>
-
-    </mat-toolbar>
-
-    <div class="content">
-      <router-outlet></router-outlet> 
-    </div>
-  </mat-sidenav-content>
-</mat-sidenav-container>
+</mat-toolbar>
+<app-navbar [expanded]="expanded"></app-navbar>
