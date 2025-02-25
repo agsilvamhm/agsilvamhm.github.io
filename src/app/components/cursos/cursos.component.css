@@ -21,7 +21,7 @@ img {
   flex-direction: column; /* Alinha os elementos internos verticalmente */
   justify-content: space-between; /* Mantém a estrutura coesa */
   flex: 1 1 calc(25% - 20px); /* Quatro cards por linha (em telas maiores) */
-  max-width: 100%;
+  max-width: 35%;
   margin: 10px;
   border: 1px solid #ddd;
   border-radius: 8px;

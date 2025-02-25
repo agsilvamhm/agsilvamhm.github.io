@@ -2,10 +2,10 @@
 .sidenav-container {
   margin-top: 100px; 
   height: calc(100vh - 100px); 
-  /*background-color: white; */
+  background-color: white; 
 
 } 
-/*
+
 .icon-container a {
   display: flex;
   align-items: flex-start; 
@@ -25,4 +25,4 @@
 .icon-container span {
   white-space: nowrap; 
 }
-   */
+  
