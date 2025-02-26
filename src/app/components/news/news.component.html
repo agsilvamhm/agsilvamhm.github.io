@@ -1,11 +1,20 @@
-<div *ngIf="news.length > 0" class="news-container">
-    <h2>Últimas Notícias do Brasil</h2>
-    <div *ngFor="let item of news" class="news-item">
-      <img [src]="item.image" alt="Imagem da notícia" />
-      <div class="news-content">
-        <h3><a [href]="item.link" target="_blank">{{ item.title }}</a></h3>
-        <p>{{ item.pubDate | date: 'short' }}</p>
-      </div>
-    </div>
-  </div>
-  
+<div class="categories">
+  <button mat-button (click)="changeCategory('tecnologia')">Tecnologia</button>
+  <button mat-button (click)="changeCategory('cursos')">Cursos</button>
+  <button mat-button (click)="changeCategory('negócios')">Negócios</button>
+  <button mat-button (click)="changeCategory('Brasil')">Brasil</button>
+</div>
+
+<div *ngIf="news.length > 0" class="news-list">
+  <mat-card *ngFor="let item of news" class="news-card">
+    <mat-card-header>
+      <mat-card-title>{{ item.title }}</mat-card-title>
+      <mat-card-subtitle>{{ item.pubDate | date: 'short' }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="item.image" alt="Imagem da notícia" />
+    <mat-card-actions>
+      <a mat-button color="primary" [href]="item.link" target="_blank">Ler mais</a>
+    </mat-card-actions>
+  </mat-card>
+</div>
+
