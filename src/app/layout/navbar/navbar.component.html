@@ -1,7 +1,6 @@
 <mat-sidenav-container class="sidenav-container">
-  <!-- Menu Lateral -->
   <mat-sidenav #sidenav mode="side" class="sidenav" [opened]="true" [ngClass]="{'collapsed': !expanded}">
-    <mat-nav-list class="menu-title">
+    <mat-nav-list class="menu">
       <ng-container *ngFor="let item of menuItems">
         <a mat-list-item [routerLink]="item.route" [title]="item.title" [attr.aria-label]="item.title">
           <i class="material-icons">{{ item.icon }}</i>
@@ -11,7 +10,6 @@
     </mat-nav-list>
   </mat-sidenav>
 
-  <!-- Conteúdo Principal -->
   <mat-sidenav-content>
     <div class="content">
       <router-outlet></router-outlet>

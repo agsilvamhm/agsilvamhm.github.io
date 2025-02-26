@@ -14,6 +14,9 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
 import { CursosComponent } from './components/cursos/cursos.component';
 import { HomeComponent } from './components/home/home.component';
 import { FerramentasComponent } from './components/ferramentas/ferramentas.component';
+import { HttpClientModule } from '@angular/common/http';
+import { NewsComponent } from './components/news/news.component';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +26,9 @@ import { FerramentasComponent } from './components/ferramentas/ferramentas.compo
     NavbarComponent,
     CursosComponent,
     HomeComponent,
-    FerramentasComponent
+    FerramentasComponent,
+    NewsComponent
+  
   ],
   imports: [
     BrowserModule,
@@ -32,7 +37,9 @@ import { FerramentasComponent } from './components/ferramentas/ferramentas.compo
     MaterialModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    HttpClientModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

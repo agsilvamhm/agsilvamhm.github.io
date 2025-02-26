@@ -1,0 +1,11 @@
+<div *ngIf="news.length > 0" class="news-container">
+    <h2>Últimas Notícias do Brasil</h2>
+    <div *ngFor="let item of news" class="news-item">
+      <img [src]="item.image" alt="Imagem da notícia" />
+      <div class="news-content">
+        <h3><a [href]="item.link" target="_blank">{{ item.title }}</a></h3>
+        <p>{{ item.pubDate | date: 'short' }}</p>
+      </div>
+    </div>
+  </div>
+  

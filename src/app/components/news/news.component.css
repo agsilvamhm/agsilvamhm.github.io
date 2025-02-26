@@ -1,0 +1,34 @@
+.news-container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .news-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .news-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 8px;
+  }
+  
+  .news-content h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .news-content a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .news-content p {
+    font-size: 14px;
+    color: gray;
+  }
