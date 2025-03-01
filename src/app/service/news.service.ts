@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
@@ -7,20 +7,21 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class NewsService {
-  private baseUrl = 'https://api.rss2json.com/v1/api.json?rss_url=';
+  private baseUrl = 'https://newsapi.org/v2/everything';
+  private apiKey = 'f6fcb1f8e29d40b888e44c0cc2994745';  // Insira sua chave da NewsAPI
 
   constructor(private http: HttpClient) {}
 
   getNews(category: string): Observable<any> {
-    const rssUrl = `${this.baseUrl}https://news.google.com/rss/search?q=${category}&hl=pt-BR&gl=BR&ceid=BR:pt-PT`;
-    return this.http.get(rssUrl).pipe(
+    const url = `${this.baseUrl}?q=${category}&apiKey=${this.apiKey}`;
+    return this.http.get(url).pipe(
       map((data: any) => {
-        data.items.forEach((item: any) => {
-          const imgMatch = item.description.match(/<img[^>]+src="([^">]+)"/);
-          item.image = imgMatch ? imgMatch[1] : 'https://via.placeholder.com/150';
+        data.articles.forEach((article: any) => {
+          article.image = article.urlToImage || 'https://via.placeholder.com/150';
         });
-        return data.items;
+        return data.articles;
       })
     );
   }
 }
+
