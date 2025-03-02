@@ -19,8 +19,9 @@ export class NewsService {
     // Configuração dos cabeçalhos
     const headers = new HttpHeaders({
       'Accept': 'application/json',
-      'User-Agent': 'agsilvamhm/1.0' // Substitua pelo nome da sua aplicação
+      'Referer': 'http://localhost:4200' // Finge que a requisição vem do localhost
     });
+    
 
     // Faz a requisição com os cabeçalhos
     return this.http.get(url, { headers }).pipe(
