@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class NewsService {
-  private baseUrl = 'https://newsapi.org/v2/everything';
+  private baseUrl = 'http://newsapi.org/v2/everything';
   private apiKey = environment.newsApiKey;  
 
   constructor(private http: HttpClient) {}
