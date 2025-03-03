@@ -8,30 +8,19 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class NewsService {
-  private baseUrl = 'https://gnews.io/api/v4/search';
-  private apiKey = environment.newsApiKey; // Pegando a chave do environment
+  private baseUrl = 'http://newsapi.org/v2/everything';
+  private apiKey = environment.newsApiKey;  
 
   constructor(private http: HttpClient) {}
 
   getNews(category: string): Observable<any> {
-    const url = `${this.baseUrl}?q=${category}&lang=PT-BR&country=us&max=10&apikey=${this.apiKey}`;
-
-    const headers = new HttpHeaders({
-      'Accept': 'application/json'
-    });
-
-    return this.http.get(url, { headers }).pipe(
+    const url = `${this.baseUrl}?q=${category}&apiKey=${this.apiKey}`;
+    return this.http.get(url).pipe(
       map((data: any) => {
-        if (data.articles) {
-          return data.articles.map((article: any) => ({
-            title: article.title,
-            description: article.description,
-            url: article.url,
-            image: article.image || 'https://via.placeholder.com/150',
-            source: article.source.name
-          }));
-        }
-        return [];
+        data.articles.forEach((article: any) => {
+          article.image = article.urlToImage || 'https://via.placeholder.com/150';
+        });
+        return data.articles;
       })
     );
   }

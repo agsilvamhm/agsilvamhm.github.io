@@ -1,6 +1,6 @@
 export const environment = {
     production: false,
 
-    newsApiKey: '8202df7e0bbd8f90db7dc291411a2345' 
+    newsApiKey: 'f6fcb1f8e29d40b888e44c0cc2994745' 
   };
   

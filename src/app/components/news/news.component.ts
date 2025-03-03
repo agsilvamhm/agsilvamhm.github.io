@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GooglenewsService } from 'src/app/service/googlenews.service';
 import { NewsService } from 'src/app/service/news.service';
 
 @Component({
@@ -10,7 +11,7 @@ export class NewsComponent implements OnInit {
   news: any[] = [];
   category: string = 'tecnologia'; // Padrão
 
-  constructor(private newsService: NewsService) {}
+  constructor(private newsService: GooglenewsService) {}
 
   ngOnInit(): void {
     this.loadNews();
