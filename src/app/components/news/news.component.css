@@ -68,3 +68,40 @@ mat-card-actions {
   justify-content: flex-end;
 }
 
+.title {
+  font-size: 2.5rem; /* Aumenta o tamanho da fonte */
+  font-weight: bold; /* Deixa o texto mais destacado */
+  color: #2c3e50; /* Cor escura para boa leitura */
+  text-transform: uppercase; /* Deixa tudo em maiúsculo */
+  text-align: center; /* Centraliza o título */
+  margin-bottom: 1rem; /* Espaço abaixo do título */
+}
+
+.title {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+
+.title {
+  background-color: #f39c12; /* Cor de fundo chamativa */
+  padding: 10px 20px; /* Adiciona espaço interno */
+  border-radius: 5px; /* Arredonda os cantos */
+  display: inline-block; /* Evita que ocupe a linha inteira */
+  color: white; /* Mantém contraste */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
