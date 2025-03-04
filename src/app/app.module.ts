@@ -27,7 +27,7 @@ import { NewsComponent } from './components/news/news.component';
     CursosComponent,
     HomeComponent,
     FerramentasComponent,
-    NewsComponent
+    NewsComponent    
   
   ],
   imports: [

@@ -1,11 +1,6 @@
 import { Component } from '@angular/core';
+import { Card } from 'src/app/models/card/card.model'; 
 
-interface Card {
-  title: string;
-  content: string;
-  link: string;
-  imageUrl: string;
-}
 
 @Component({
   selector: 'app-cursos',

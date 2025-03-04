@@ -1,5 +1,70 @@
-body{
-    background-color: brown;
-    color: brown;
-}
-
+.card-container {
+    display: flex;
+    flex-direction: column; /* Layout em coluna por padrão */
+    gap: 20px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4e4747;
+  }
+  
+  img {
+    width: 300px; /* Largura total do card */
+    height: 200px; /* Altura fixa para o espaço da imagem */
+    object-fit: contain; /* Ajusta a imagem proporcionalmente sem cortar */
+    border-bottom: 1px solid #ddd; /* Separador visual */
+  }
+  
+  
+  .example-card {
+    display: flex;
+    flex-direction: column; /* Alinha os elementos internos verticalmente */
+    justify-content: space-between; /* Mantém a estrutura coesa */
+    flex: 1 1 calc(25% - 20px); /* Quatro cards por linha (em telas maiores) */
+    max-width: 35%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 350px; /* Define uma altura uniforme para todos os cards */
+  }
+  
+  .example-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Layout em linha para telas maiores */
+  @media (min-width: 768px) {
+    .card-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .example-card {
+      flex: 1 1 calc(25% - 20px); /* Quatro cards por linha */
+    }
+  }
+  
+  /* Responsividade intermediária */
+  @media (min-width: 480px) and (max-width: 767px) {
+    .example-card {
+      flex: 1 1 calc(50% - 20px); /* Dois cards por linha */
+    }
+  }
+  
+  /* Responsividade para telas menores que 480px */
+  @media (max-width: 479px) {
+    .example-card {
+      flex: 1 1 100%; /* Um card por linha */
+    }
+  
+    .card-container {
+      padding: 10px;
+      gap: 10px;
+    }
+  }
+  
