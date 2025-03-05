@@ -69,8 +69,19 @@ export class CursosComponent {
       content: 'Melhore suas habilidades com os cursos.',
       link: 'https://jornadadodev.com.br/cursos/',
       imageUrl: 'assets/imagens/jornada-do-dev.jpeg'
+    },
+    {
+      title: 'School of Net',
+      content: 'Melhore suas habilidades com os cursos.',
+      link: 'https://www.schoolofnet.com/',
+      imageUrl: 'assets/imagens/cursos/schoolofnet.png'
+    },
+    {
+      title: 'DevsChannel',
+      content: 'Melhore suas habilidades com os cursos.',
+      link: 'https://devschannel.com/',
+      imageUrl: 'assets/imagens/cursos/devschannel.jpg'
     }
-
   ];
   
 }
