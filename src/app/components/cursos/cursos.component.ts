@@ -81,6 +81,12 @@ export class CursosComponent {
       content: 'Melhore suas habilidades com os cursos.',
       link: 'https://devschannel.com/',
       imageUrl: 'assets/imagens/cursos/devschannel.jpg'
+    },
+    {
+      title: 'Codigodebase',
+      content: 'Os alunos destaques do Codigo de Base são indicados para o Bootcamp da Foursys, os aprovados no processo seletivo iniciam o FourCamp, por um programa intensivo de 90 dias de capacitação.',
+      link: 'https://codigodebase.com.br/',
+      imageUrl: 'assets/imagens/cursos/codigodebase.jpg'
     }
   ];
   

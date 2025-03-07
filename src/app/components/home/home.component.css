@@ -16,6 +16,20 @@ body {
   animation: moveTitle 10s linear infinite; /* Animação que dura 10 segundos e repete infinitamente */
 }
 
+.donation-section {
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o conteúdo */
+  max-width: 80%; /* Evita que ultrapasse a tela */
+  margin-bottom: 30px; /* Espaçamento inferior */
+}
+
+.donation-section h3 {
+  color: #333; /* Cor escura para melhor contraste */
+  font-size: 22px; /* Tamanho equilibrado */
+  font-weight: bold; /* Dá mais ênfase ao título */
+  margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
 @keyframes moveTitle {
   0% {
       transform: translateX(100%); /* Começa fora da tela à direita */
