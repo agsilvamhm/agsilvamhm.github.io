@@ -44,7 +44,5 @@ export class FerramentasComponent {
       link: 'https://erickweil.github.io/portugolweb/',
       imageUrl: 'assets/imagens/ferramentas/portugol.png'
     }
-
-
   ]
 }
