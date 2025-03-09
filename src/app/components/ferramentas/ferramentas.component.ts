@@ -31,6 +31,20 @@ export class FerramentasComponent {
       content: 'O projeto "Qwiklabs Resources" contém arquivos, conjuntos de dados e imagens de máquina para determinados laboratórios e pode ser acessado de todos os ambientes de laboratório do Google Cloud.',
       link: 'https://www.cloudskillsboost.google/focuses/40759856?parent=lti_session',
       imageUrl: 'assets/imagens/ferramentas/qwiklabs.jpeg'
+    },
+    {
+      title: 'draw.io',
+      content: 'draw.io is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.',
+      link: 'https://app.diagrams.net/',
+      imageUrl: 'assets/imagens/ferramentas/diagramas-net.png'
+    },
+    {
+      title: 'Portugol',
+      content: 'Portugol, também conhecido como Português estruturado, é uma família de linguagens de programação que possui como base a língua portuguesa.',
+      link: 'https://erickweil.github.io/portugolweb/',
+      imageUrl: 'assets/imagens/ferramentas/portugol.png'
     }
+
+
   ]
 }
