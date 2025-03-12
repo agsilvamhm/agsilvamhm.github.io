@@ -43,6 +43,19 @@ export class FerramentasComponent {
       content: 'Portugol, também conhecido como Português estruturado, é uma família de linguagens de programação que possui como base a língua portuguesa.',
       link: 'https://erickweil.github.io/portugolweb/',
       imageUrl: 'assets/imagens/ferramentas/portugol.png'
+    },
+    {
+      title: 'flowgorithm',
+      content: 'PO Flowgorithm é uma ferramenta educacional que ajuda a aprender programação de forma visual e interativa. É uma linguagem de programação para iniciantes baseada em fluxogramas gráficos.',
+      link: 'http://www.flowgorithm.org/',
+      imageUrl: 'assets/imagens/ferramentas/Flowgorithm.png'
+    },
+    {
+      title: 'CSS Dinner',
+      content: 'O CSS Diner é um jogo interativo que ajuda a aprender a usar seletores CSS. É uma forma divertida e educativa de aprender CSS, adequada para todos os níveis de habilidade.',
+      link: 'https://flukeout.github.io/',
+      imageUrl: 'assets/imagens/ferramentas/Flowgorithm.png'
     }
+
   ]
 }

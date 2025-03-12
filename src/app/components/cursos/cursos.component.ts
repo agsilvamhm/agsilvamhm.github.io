@@ -87,7 +87,14 @@ export class CursosComponent {
       content: 'Os alunos destaques do Codigo de Base são indicados para o Bootcamp da Foursys, os aprovados no processo seletivo iniciam o FourCamp, por um programa intensivo de 90 dias de capacitação.',
       link: 'https://codigodebase.com.br/',
       imageUrl: 'assets/imagens/cursos/codigodebase.jpg'
+    },
+    {
+      title: 'escoladeprogramadores',
+      content: 'Consultoria especializada em cursos e desenvolvimento de materiais para áreas de Tecnologia da Informação',
+      link: 'https://vimeo.com/escoladeprogramadores',
+      imageUrl: 'assets/imagens/cursos/escoladeprogramadores.png'
     }
+
   ];
   
 }
