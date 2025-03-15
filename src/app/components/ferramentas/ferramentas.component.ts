@@ -54,7 +54,7 @@ export class FerramentasComponent {
       title: 'CSS Dinner',
       content: 'O CSS Diner é um jogo interativo que ajuda a aprender a usar seletores CSS. É uma forma divertida e educativa de aprender CSS, adequada para todos os níveis de habilidade.',
       link: 'https://flukeout.github.io/',
-      imageUrl: 'assets/imagens/ferramentas/Flowgorithm.png'
+      imageUrl: 'assets/imagens/ferramentas/cssdinner.jpg'
     }
 
   ]
