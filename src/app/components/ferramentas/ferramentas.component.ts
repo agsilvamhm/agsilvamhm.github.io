@@ -55,6 +55,24 @@ export class FerramentasComponent {
       content: 'O CSS Diner é um jogo interativo que ajuda a aprender a usar seletores CSS. É uma forma divertida e educativa de aprender CSS, adequada para todos os níveis de habilidade.',
       link: 'https://flukeout.github.io/',
       imageUrl: 'assets/imagens/ferramentas/cssdinner.jpg'
+    },
+    {
+      title: 'Aplicação para executar código Javascript',
+      content: 'Aplicação online para executar aplicações javascript',
+      link: 'https://jsfiddle.net/',
+      imageUrl: 'assets/imagens/ferramentas/javascript.png'
+    },
+    {
+      title: 'Aplicação para executar código cobol',
+      content: 'Aplicação online para executar aplicações cobol',
+      link: 'https://www.jdoodle.com/embed/v1/57bc79abec6f519b',
+      imageUrl: 'assets/imagens/ferramentas/cobol.jpeg'
+    },
+    {
+      title: 'Aplicação para executar código pyton',
+      content: 'Aplicação online para executar aplicações pyton',
+      link: 'https://trinket.io/python/3d8d7ce66b',
+      imageUrl: 'assets/imagens/ferramentas/Python.png'
     }
 
   ]
