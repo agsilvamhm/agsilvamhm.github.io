@@ -16,6 +16,7 @@ import { HomeComponent } from './components/home/home.component';
 import { FerramentasComponent } from './components/ferramentas/ferramentas.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NewsComponent } from './components/news/news.component';
+import { ConcursosComponent } from './components/concursos/concursos.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { NewsComponent } from './components/news/news.component';
     CursosComponent,
     HomeComponent,
     FerramentasComponent,
-    NewsComponent    
+    NewsComponent,
+    ConcursosComponent    
   
   ],
   imports: [

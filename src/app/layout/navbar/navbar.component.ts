@@ -11,6 +11,7 @@ export class NavbarComponent {
   menuItems = [
   { route: '/', title: 'Página Inicial', icon: 'home', label: 'Página Inicial' },
   { route: 'cursos', title: 'Plataformas de cursos', icon: 'rocket_launch', label: 'Plataformas de cursos' },
-  { route: 'ferramentas', title: 'Ferramentas', icon: 'build', label: 'Ferramentas' }
+  { route: 'ferramentas', title: 'Ferramentas', icon: 'build', label: 'Ferramentas' },
+  { route: 'concursos', title: 'Concursos de TI', icon: 'event', label: 'Concursos de TI' }
 ];
 }
