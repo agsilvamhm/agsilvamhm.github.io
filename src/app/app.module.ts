@@ -17,6 +17,7 @@ import { FerramentasComponent } from './components/ferramentas/ferramentas.compo
 import { HttpClientModule } from '@angular/common/http';
 import { NewsComponent } from './components/news/news.component';
 import { ConcursosComponent } from './components/concursos/concursos.component';
+import { FerramentasIAComponent } from './components/ferramentas-ia/ferramentas-ia.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ConcursosComponent } from './components/concursos/concursos.component';
     HomeComponent,
     FerramentasComponent,
     NewsComponent,
-    ConcursosComponent    
+    ConcursosComponent,
+    FerramentasIAComponent    
   
   ],
   imports: [
